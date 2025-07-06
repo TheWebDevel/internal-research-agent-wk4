@@ -1,0 +1,56 @@
+# Ignore Python cache and compiled files
+__pycache__/
+agent/__pycache__
+*__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Ignore environment and credentials files
+.env
+.env.*
+*.env
+*.envrc
+*.env.local
+*.env.development
+*.env.production
+
+# Ignore Google credentials and tokens
+credentials.json
+token.json
+mcp_insurance/credentials.json
+mcp_insurance/token.json
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ignore build and lock files
+*.lock
+*.log
+
+# Ignore data and policy files
+hr_policies/
+data/
+
+# Ignore test outputs
+*.out
+*.test
+
+# Ignore PDF and binary data
+*.pdf
+
+# Ignore project-specific files
+mcp_insurance/.venv/
+
+# Do not ignore template/example files
+!mcp_insurance/credentials_template.json
+!mcp_insurance/env.example
